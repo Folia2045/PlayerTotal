@@ -23,28 +23,16 @@
 
 ## 编译说明
 
-由于系统中未安装 Maven，需要手动编译：
+本项目需要使用Maven编译
 
-### 方法 1: 使用 Maven（推荐）
+### 使用 Maven
 
 ```bash
-# 安装 Maven（如果未安装）
-sudo pacman -S maven  # Arch Linux
-# 或
-sudo apt install maven  # Ubuntu/Debian
 
-# 编译插件
 cd PlayerStatisticsPlugin
 mvn clean package
 
 # 编译后的 JAR 文件位于 target/PlayerStatisticsPlugin-1.0.0.jar
-```
-
-### 方法 2: 使用 Docker
-
-```bash
-cd PlayerStatisticsPlugin
-docker run --rm -v "$(pwd)":/app -w /app maven:3.9-eclipse-temurin-21 mvn clean package
 ```
 
 ## 安装
