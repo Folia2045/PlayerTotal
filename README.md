@@ -31,7 +31,7 @@
 cd PlayerTotal
 mvn clean package
 
-# 编译后的 JAR 文件位于 target/PlayerStatisticsPlugin-1.0.0.jar
+# 编译后的 JAR 文件位于 target/PlayerTotal-X.X.X.jar
 ```
 
 ## 安装
