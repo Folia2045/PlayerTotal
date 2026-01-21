@@ -1,4 +1,4 @@
-# PlayerTotal
+# Playertotal
 
 一个支持 Minecraft 1.21.X 的服务器统计插件，记录玩家数据并提供 PlaceholderAPI 变量。
 
@@ -18,18 +18,17 @@
 
 ## 命令
 
-- `/playerstats` - 查看统计数据
-- `/playerstats reload` - 重新加载数据（需要 `playerstats.admin` 权限）
+- `/playertotal` - 查看统计数据
+- `/playertotal reload` - 重新加载数据（需要 `playerstats.admin` 权限）
 
 ## 编译说明
 
-本项目需要使用Maven编译
+由于系统中未安装 Maven，需要手动编译：
 
-### 使用 Maven
+### 方法 1: 使用 Maven（推荐）
 
 ```bash
-
-cd PlayerStatisticsPlugin
+cd PlayerTotal
 mvn clean package
 
 # 编译后的 JAR 文件位于 target/PlayerStatisticsPlugin-1.0.0.jar
@@ -37,13 +36,13 @@ mvn clean package
 
 ## 安装
 
-1. 编译完成后，将 `target/PlayerStatisticsPlugin-1.0.0.jar` 复制到服务器的 `plugins` 文件夹
+1. 编译完成后，将 `target/PlayerTotal-X.X.X.jar` 复制到服务器的 `plugins` 文件夹
 2. 确保已安装 PlaceholderAPI 插件
-3. 重启服务器或使用 `/plugman load PlayerStatisticsPlugin` 加载插件
+3. 重启服务器或使用 `/plugman load PlayerTotal` 加载插件
 
 ## 数据存储
 
-玩家数据存储在 `plugins/PlayerStatisticsPlugin/playerdata.json` 文件中，格式如下：
+玩家数据存储在 `plugins/PlayerTotal/playerdata.json` 文件中，格式如下：
 
 ```json
 {
