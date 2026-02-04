@@ -17,15 +17,15 @@
 ## PlaceholderAPI 变量
 
 
-- `%player_total%` - 显示服务器总玩家数
+- `%playertotal_total%` - 显示服务器总玩家数
 
-- `%player_day_player_total%` - 显示一天内加入的玩家数
+- `%playertotal_day_player_total%` - 显示一天内加入的玩家数
 
-- `%player_week_player_total%` - 显示一周内加入的玩家数
+- `%playertotal_week_player_total%` - 显示一周内加入的玩家数
 
-- `%player_mon_player_total%` - 显示一个月内加入的玩家数
+- `%playertotal_mon_player_total%` - 显示一个月内加入的玩家数
 
-- `%player_year_player_total%` - 显示一年内加入的玩家数
+- `%playertotal_year_player_total%` - 显示一年内加入的玩家数
 
 
 ## 命令
